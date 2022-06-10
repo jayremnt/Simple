@@ -1,0 +1,7 @@
+vi:
+  home:
+    index:
+      welcome_html: 'Xin chao, <em>%{name}</em>!'
+  help:
+    index:
+      welcome: 'Xin chao'
