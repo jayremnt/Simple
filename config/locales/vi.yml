@@ -13,16 +13,19 @@ vi:
   contact:
     index:
       title: 'Lien he'
-      contact_rort: 'Lien he ngay voi'
+      page_description: 'Lien he ngay voi'
       contact_page: 'page chung toi'
   about:
     index:
       title: 'Thong tin'
-      about_rort: 'Ve Ruby on Rails'
+      page_description: 'Ve Ruby on Rails'
   news:
     index:
       title: 'Tin tuc'
   login:
     index:
       title: 'Dang nhap'
-  
+  signup:
+    index:
+      title: 'Dang ky'
+      page_description: 'Day la trang dang ky cho nguoi dung moi'

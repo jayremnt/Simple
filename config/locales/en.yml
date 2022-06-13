@@ -13,15 +13,19 @@ en:
   contact:
     index:
       title: 'Contact'
-      contact_rort: 'Contact the Ruby on Rails Tutorial about the sample app at the'
+      page_description: 'Contact the Ruby on Rails Tutorial about the sample app at the'
       contact_page: 'contact page'
   about:
     index:
       title: 'About'
-      about_rort: 'About Ruby on Rails'
+      page_description: 'About Ruby on Rails'
   news:
     index:
       title: 'News'
   login:
     index:
       title: 'Login'
+  signup:
+    index:
+      title: 'Sign up'
+      page_description: 'This will be a signup page for new users.'
