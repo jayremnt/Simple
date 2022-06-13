@@ -1,0 +1,9 @@
+vi:
+  home:
+    index:
+      welcome_html: 'Xin chao, <em>%{name}</em>!'
+      page_description: 'Day la trang home'
+  help:
+    index:
+      welcome: 'Xin chao'
+      page_description: 'Day la trang help'
