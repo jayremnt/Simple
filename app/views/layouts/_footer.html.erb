@@ -4,9 +4,9 @@
     by <a href="https://www.michaelhartl.com/">Michael Hartl</a>
   </small><nav>
     <ul>
-      <li><%= link_to "About", '#' %></li>
-      <li><%= link_to "Contact", '#' %></li>
-      <li><a href="https://news.railstutorial.org/">News</a></li>
+      <li><%= link_to t('about.index.title'), about_path %></li>
+      <li><%= link_to t('contact.index.title'), contact_path %></li>
+      <li><a href="https://news.railstutorial.org/"><%= t 'news.index.title' %></a></li>
     </ul>
   </nav>
 </footer>

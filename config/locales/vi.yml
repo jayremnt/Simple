@@ -1,9 +1,28 @@
 vi:
   home:
     index:
+      title: 'Trang chu'
       welcome_html: 'Xin chao, <em>%{name}</em>!'
       page_description: 'Day la trang home'
+      sign_up_now: 'Dang ky ngay'
   help:
     index:
+      title: 'Ho tro'
       welcome: 'Xin chao'
       page_description: 'Day la trang help'
+  contact:
+    index:
+      title: 'Lien he'
+      contact_rort: 'Lien he ngay voi'
+      contact_page: 'page chung toi'
+  about:
+    index:
+      title: 'Thong tin'
+      about_rort: 'Ve Ruby on Rails'
+  news:
+    index:
+      title: 'Tin tuc'
+  login:
+    index:
+      title: 'Dang nhap'
+  
