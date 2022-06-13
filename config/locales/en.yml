@@ -1,4 +1,6 @@
 en:
+  app:
+    title: 'Ruby on Rails Tutorial Sample App'
   home:
     index:
       title: 'Home'

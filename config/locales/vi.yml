@@ -1,4 +1,6 @@
 vi:
+  app:
+    title: 'Ruby on Rails Tutorial Sample App'
   home:
     index:
       title: 'Trang chu'
