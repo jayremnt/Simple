@@ -56,3 +56,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "rails-i18n", "~> 7.0"
 
 gem 'bootstrap-sass', '3.4.1'
+
+gem 'bcrypt', '3.1.13'
