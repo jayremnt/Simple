@@ -1,10 +1,33 @@
 en:
+  app:
+    title: 'Ruby on Rails Tutorial Sample App'
   home:
     index:
+      title: 'Home'
       welcome_html: 'Welcome, <em>%{name}</em>!'
       page_description: 'This is the home page'
+      sign_up_now: 'Sign up now'
   help:
-    index:  
+    index:
+      title: 'Help'
       welcome: 'Welcome'
       page_description: 'This is the help page'
-      
+  contact:
+    index:
+      title: 'Contact'
+      page_description: 'Contact the Ruby on Rails Tutorial about the sample app at the'
+      contact_page: 'contact page'
+  about:
+    index:
+      title: 'About'
+      page_description: 'About Ruby on Rails'
+  news:
+    index:
+      title: 'News'
+  login:
+    index:
+      title: 'Login'
+  signup:
+    index:
+      title: 'Sign up'
+      page_description: 'This will be a signup page for new users.'
