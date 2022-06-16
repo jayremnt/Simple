@@ -7,6 +7,13 @@ en:
       welcome_html: 'Welcome, <em>%{name}</em>!'
       page_description: 'This is the home page'
       sign_up_now: 'Sign up now'
+  header:
+    index:
+      users: 'Users'
+      profile: 'Profile'
+      settings: 'Settings'
+      log_out: 'Log out'
+      account: 'Account'
   help:
     index:
       title: 'Help'

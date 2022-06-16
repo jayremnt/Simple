@@ -7,6 +7,13 @@ vi:
       welcome_html: 'Xin chao, <em>%{name}</em>!'
       page_description: 'Day la trang home'
       sign_up_now: 'Dang ky ngay'
+  header:
+    index:
+      users: 'Nguoi dung'
+      profile: 'Ca nhan'
+      settings: 'Cai dat'
+      log_out: 'Dang xuat'
+      account: 'Tai khoan'
   help:
     index:
       title: 'Ho tro'
@@ -27,6 +34,7 @@ vi:
   login:
     index:
       title: 'Dang nhap'
+      sign_up_now: 'Dang ky ngay'
   signup:
     index:
       title: 'Dang ky'
