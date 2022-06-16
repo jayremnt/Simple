@@ -1,6 +1,7 @@
 vi:
   app:
     title: 'Ruby on Rails Tutorial Sample App'
+    welcome: 'Xin chaoooooooooooooooo'
   home:
     index:
       title: 'Trang chu'
