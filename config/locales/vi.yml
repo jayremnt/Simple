@@ -39,6 +39,8 @@ vi:
     index:
       title: 'Dang nhap'
       sign_up_now: 'Dang ky ngay'
+      remember_me: 'Luu thong tin cho lan dang nhap sau'
+      new_user: 'Chua dang ky?'
   signup:
     index:
       title: 'Dang ky'
