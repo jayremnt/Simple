@@ -35,6 +35,9 @@ en:
   login:
     index:
       title: 'Login'
+      sign_up_now: 'Sign up now'
+      remember_me: 'Remember me on this computer'
+      new_user: 'New user?'
   signup:
     index:
       title: 'Sign up'
