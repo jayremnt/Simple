@@ -52,6 +52,7 @@ vi:
     edit:
       title: 'Sua thong tin'
       update_profile: 'Cap nhat thong tin'
+      profile_updated: 'Da cap nhat thong tin'
     delete: 
       title: 'Xoa nguoi dung'
       deleted: 'Da xoa nguoi dung'

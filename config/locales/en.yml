@@ -52,6 +52,7 @@ en:
     edit:
       title: 'Edit profile'
       update_profile: 'Update profile'
+      profile_updated: 'Profile updated'
     delete:
       title: 'Delete'
       deleted: 'User deleted'
