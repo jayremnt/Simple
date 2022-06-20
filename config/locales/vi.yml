@@ -50,8 +50,8 @@ vi:
     index:
       title: 'Tat ca nguoi dung'
     edit:
-        title: 'Sua thong tin'
-        update_profile: 'Cap nhat thong tin'
+      title: 'Sua thong tin'
+      update_profile: 'Cap nhat thong tin'
     delete: 
       title: 'Xoa nguoi dung'
       deleted: 'Da xoa nguoi dung'
