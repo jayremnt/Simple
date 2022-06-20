@@ -2,6 +2,9 @@ vi:
   app:
     title: 'Ruby on Rails Tutorial Sample App'
     welcome: 'Xin chaoooooooooooooooo'
+    please_login: 'Hay dang nhap truoc khi su dung tinh nang nay'
+    change: 'thay doi'
+    are_you_sure: 'Ban co chac ko?'
   home:
     index:
       title: 'Trang chu'
@@ -40,3 +43,14 @@ vi:
     index:
       title: 'Dang ky'
       page_description: 'Day la trang dang ky cho nguoi dung moi'
+      create_account: 'Tao tai khoan moi'
+  users:
+    index:
+      title: 'Tat ca nguoi dung'
+    edit:
+        title: 'Sua thong tin'
+        update_profile: 'Cap nhat thong tin'
+    delete: 
+      title: 'Xoa nguoi dung'
+      deleted: 'Da xoa nguoi dung'
+    
