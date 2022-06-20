@@ -1,0 +1,16 @@
+<% provide(:title, t('user.edit.title')) %>
+<% provide(:button_text, t('user.edit.update_profile')) %>
+
+<h1><%= t('user.edit.title') %></h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_with(model: @user, local: true) do |f| %>
+      <%= render 'shared/error_messages' %>
+      <%= render 'form' %>
+    <% end %>
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <a href="https://gravatar.com/emails" target="_blank"><%= t('app.change') %></a>
+    </div>
+  </div>
+</div>
