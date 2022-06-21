@@ -2,6 +2,9 @@ en:
   app:
     title: 'Ruby on Rails Tutorial Sample App'
     welcome: 'Welcome to the Sample App!'
+    please_login: 'Please login'
+    change: 'change'
+    are_you_sure: 'Are you sure'
   home:
     index:
       title: 'Home'
@@ -42,3 +45,15 @@ en:
     index:
       title: 'Sign up'
       page_description: 'This will be a signup page for new users.'
+      create_account: 'Create a new account'
+  users:
+    index:
+      title: 'All users'
+    edit:
+      title: 'Edit profile'
+      update_profile: 'Update profile'
+      profile_updated: 'Profile updated'
+    delete:
+      title: 'Delete'
+      deleted: 'User deleted'
+    
