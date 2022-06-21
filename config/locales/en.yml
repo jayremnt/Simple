@@ -5,6 +5,7 @@ en:
     please_login: 'Please login'
     change: 'change'
     are_you_sure: 'Are you sure'
+    hi: 'Hi'
   home:
     index:
       title: 'Home'
@@ -41,6 +42,8 @@ en:
       sign_up_now: 'Sign up now'
       remember_me: 'Remember me on this computer'
       new_user: 'New user?'
+      forgot_password: '(Forgot password?)'
+      invalid_combination: 'Invalid email/password combination'
   signup:
     index:
       title: 'Sign up'
@@ -56,4 +59,29 @@ en:
     delete:
       title: 'Delete'
       deleted: 'User deleted'
-    
+  user_mailer:
+    account_activation:
+      title: 'Account Activation'
+      activate: 'Activate'
+      account_activated : 'Account activated'
+      invalid_activation_link: 'Invalid activation link'
+      account_not_activated: 'Account not activated. '
+      check_email: 'Check your email for the activation link.'
+    password_reset:
+      title: 'Password Reset'
+      to_reset_click_link: 'To reset your password click the link below'
+      reset_password: 'Reset password'
+      link_expire_in_two_hours: 'This link will expire in two hours.'
+  password_resets:
+    common:
+      password_reset_has_expired: 'Password reset has expired.'
+    edit:
+      title: 'Reset password'
+      update_password: 'Update password'
+      can_not_be_empty: 'can not be empty'
+      password_has_been_reset: 'Password has been reset.'
+    new:
+      title: 'Forgot password'
+      submit: 'Submit'
+      email_not_found: 'Email not found'
+      email_sent: 'Email sent with password reset instructions'
