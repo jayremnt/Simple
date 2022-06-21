@@ -31,6 +31,8 @@ gem "bootsnap", ">= 1.4.2", require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+
+  gem "faker", "2.1.2"
 end
 
 group :development do
@@ -58,8 +60,6 @@ gem "rails-i18n", "~> 7.0"
 gem "bootstrap-sass", "3.4.1"
 
 gem "bcrypt", "3.1.13"
-
-gem "faker", "2.1.2"
 
 gem "will_paginate", "3.1.8"
 
