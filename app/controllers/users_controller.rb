@@ -1,12 +1,8 @@
 class UsersController < ApplicationController
   before_action :logged_in_user, only: [:index, :edit, :update]
+  before_action :getUser, only: [:correct_user, :show, :destroy]
   before_action :correct_user, only: [:edit, :update]
   before_action :admin_user, only: :destroy
-  before_action :getUser, only: [:show, :edit, :update, :destroy]
-
-  def getUser
-    @user = User.find(params[:id])
-  end
 
   def show; end
 
@@ -51,6 +47,10 @@ class UsersController < ApplicationController
     params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end
 
+  def getUser
+    @user = User.find(params[:id])
+  end
+
   def logged_in_user
     unless logged_in?
       flash[:danger] = t("app.please_login")
@@ -59,7 +59,6 @@ class UsersController < ApplicationController
   end
 
   def correct_user
-    @user = User.find(params[:id])
     redirect_to(root_url) unless current_user?(@user)
   end
 
