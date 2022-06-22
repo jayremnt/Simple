@@ -63,6 +63,6 @@ en:
       title: 'Account activation'
       account_activated : 'Account activated'
       invalid_activation_link: 'Invalid activation link'
-      account_not_activated: 'Account not activated'
+      account_not_activated: 'Account not activated. '
       check_email: 'Check your email for the activation link.'
       invalid_combination: 'Invalid email/password combination'

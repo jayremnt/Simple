@@ -63,7 +63,7 @@ vi:
       title: 'Kich hoat tai khoan'
       account_activated : 'Tai khoan da duoc kich hoat thanh cong'
       invalid_activation_link: 'Link kich hoat ko hop le'
-      account_not_activated: 'Tai khoan chua duoc kich hoat'
+      account_not_activated: 'Tai khoan chua duoc kich hoat. '
       check_email: 'Kiem tra email cua ban'
       invalid_combination: 'Email/Mat khau ko dung'
       
