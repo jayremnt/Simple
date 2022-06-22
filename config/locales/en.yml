@@ -5,6 +5,7 @@ en:
     please_login: 'Please login'
     change: 'change'
     are_you_sure: 'Are you sure'
+    hi: 'Hi'
   home:
     index:
       title: 'Home'
@@ -56,4 +57,12 @@ en:
     delete:
       title: 'Delete'
       deleted: 'User deleted'
-    
+  account_activation:
+    edit:
+      activate: 'Activate'
+      title: 'Account activation'
+      account_activated : 'Account activated'
+      invalid_activation_link: 'Invalid activation link'
+      account_not_activated: 'Account not activated'
+      check_email: 'Check your email for the activation link.'
+      invalid_combination: 'Invalid email/password combination'
