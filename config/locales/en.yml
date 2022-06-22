@@ -57,8 +57,8 @@ en:
     delete:
       title: 'Delete'
       deleted: 'User deleted'
-  account_activation:
-    edit:
+  user_mailer:
+    account_activation:
       activate: 'Activate'
       title: 'Account activation'
       account_activated : 'Account activated'

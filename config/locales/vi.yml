@@ -57,8 +57,8 @@ vi:
     delete: 
       title: 'Xoa nguoi dung'
       deleted: 'Da xoa nguoi dung'
-  account_activation:
-    edit:
+  user_mailer:
+    account_activation:
       activate: 'Kich hoat'
       title: 'Kich hoat tai khoan'
       account_activated : 'Tai khoan da duoc kich hoat thanh cong'

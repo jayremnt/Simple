@@ -18,14 +18,15 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     if @user.save
       @user.send_activation_email
-      flash[:info] = t("account_activation.edit.check_email")
+      flash[:info] = t("user_mailer.account_activation.check_email")
       redirect_to root_url
 
       # log_in @user
       # flash[:success] = t("app.welcome")
       # return redirect_to @user
+    else
+      render :new
     end
-    render :new
   end
 
   def update
