@@ -5,6 +5,7 @@ vi:
     please_login: 'Hay dang nhap truoc khi su dung tinh nang nay'
     change: 'thay doi'
     are_you_sure: 'Ban co chac ko?'
+    hi: 'Chao'
   home:
     index:
       title: 'Trang chu'
@@ -41,6 +42,8 @@ vi:
       sign_up_now: 'Dang ky ngay'
       remember_me: 'Luu thong tin cho lan dang nhap sau'
       new_user: 'Chua dang ky?'
+      forgot_password: '(Quen mat khau?)'
+      invalid_combination: 'Email/Mat khau ko dung'
   signup:
     index:
       title: 'Dang ky'
@@ -56,4 +59,30 @@ vi:
     delete: 
       title: 'Xoa nguoi dung'
       deleted: 'Da xoa nguoi dung'
+  user_mailer:
+    account_activation:
+      activate: 'Kich hoat'
+      title: 'Kich hoat tai khoan'
+      account_activated : 'Tai khoan da duoc kich hoat thanh cong'
+      invalid_activation_link: 'Link kich hoat ko hop le'
+      account_not_activated: 'Tai khoan chua duoc kich hoat. '
+      check_email: 'Kiem tra email cua ban'
+    password_reset:
+      title: 'Cai lai mat khau'
+      to_reset_click_link: 'De cai dat lai mat khau, hay bam vao link'
+      reset_password: 'Cai lai mat khau'
+      link_expire_in_two_hours: 'Link se het han trong 2 gio'
+  password_resets:
+    common:
+      password_reset_has_expired: 'Het han cai lai mat khau'
+    edit:
+      title: 'Cai lai mat khau'
+      update_password: 'Cap nhat mat khau'
+      can_not_be_empty: 'khong duoc de trong'
+      password_has_been_reset: 'Mat khau da duoc dat lai thanh cong'
+    new:
+      title: 'Quen mat khau'
+      submit: 'Dong y'
+      email_not_found: 'Khong tim thay email'
+      email_sent: 'Email da duoc gui'
     
