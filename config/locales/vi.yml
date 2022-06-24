@@ -6,12 +6,14 @@ vi:
     change: 'thay doi'
     are_you_sure: 'Ban co chac ko?'
     hi: 'Chao'
+    please_log_in: 'Dang nhap truoc khi su dung'
   home:
     index:
       title: 'Trang chu'
       welcome_html: 'Xin chao, <em>%{name}</em>!'
       page_description: 'Day la trang home'
       sign_up_now: 'Dang ky ngay'
+      micropost_feed: 'Trang chu'
   header:
     index:
       users: 'Nguoi dung'
@@ -50,20 +52,28 @@ vi:
       page_description: 'Day la trang dang ky cho nguoi dung moi'
       create_account: 'Tao tai khoan moi'
   users:
+    common:
+      following: 'Dang theo doi'
+      followers: 'Nguoi theo doi'
+      follow: 'Theo doi'
+      unfollow: 'Bo theo doi'
+      view_my_profile: 'Xem trang ca nhan'
     index:
       title: 'Tat ca nguoi dung'
     edit:
       title: 'Sua thong tin'
       update_profile: 'Cap nhat thong tin'
       profile_updated: 'Da cap nhat thong tin'
-    delete: 
+    delete:
       title: 'Xoa nguoi dung'
       deleted: 'Da xoa nguoi dung'
+    show:
+      microposts: 'Bai viet'
   user_mailer:
     account_activation:
       activate: 'Kich hoat'
       title: 'Kich hoat tai khoan'
-      account_activated : 'Tai khoan da duoc kich hoat thanh cong'
+      account_activated: 'Tai khoan da duoc kich hoat thanh cong'
       invalid_activation_link: 'Link kich hoat ko hop le'
       account_not_activated: 'Tai khoan chua duoc kich hoat. '
       check_email: 'Kiem tra email cua ban'
@@ -85,4 +95,18 @@ vi:
       submit: 'Dong y'
       email_not_found: 'Khong tim thay email'
       email_sent: 'Email da duoc gui'
-    
+  microposts:
+    common:
+      compose_new_micropost: 'Tao bai viet moi...'
+      post: 'Dang bai viet'
+      posted: 'Dang'
+      ago: 'truoc'
+    model:
+      should_less_than_5_megabytes: 'Tep tai len can phai < 5mb'
+      must_be_valid_image: 'Anh khong hop le'
+    new:
+      micropost_created: 'Da tao bai viet!'
+    destroy:
+      micropost_deleted: 'Da xoa bai viet!'
+  shared:
+    view_my_profile: 'Xem trang ca nhan'

@@ -4,7 +4,9 @@ class UsersController < ApplicationController
   before_action :correct_user, only: [:edit, :update]
   before_action :admin_user, only: :destroy
 
-  def show; end
+  def show
+    @microposts = @user.microposts.paginate(page: params[:page], per_page: params[:per_page] || 10)
+  end
 
   def new
     @user = User.new
@@ -46,21 +48,28 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
 
-  private
-
-  def user_params
-    params.require(:user).permit(:name, :email, :password, :password_confirmation)
+  def following
+    @title = t("users.common.following")
+    @user = User.find(params[:id])
+    @users = @user.following.paginate(page: params[:page], per_page: params[:per_page] || 10)
+    render :show_follow
   end
+
+  def followers
+    @title = t("users.common.followers")
+    @user = User.find(params[:id])
+    @users = @user.followers.paginate(page: params[:page], per_page: params[:per_page] || 10)
+    render :show_follow
+  end
+
+  private
 
   def getUser
     @user = User.find(params[:id])
   end
 
-  def logged_in_user
-    unless logged_in?
-      flash[:danger] = t("app.please_login")
-      redirect_to login_url
-    end
+  def user_params
+    params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end
 
   def correct_user

@@ -6,12 +6,14 @@ en:
     change: 'change'
     are_you_sure: 'Are you sure'
     hi: 'Hi'
+    please_log_in: 'Please login'
   home:
     index:
       title: 'Home'
       welcome_html: 'Welcome, <em>%{name}</em>!'
       page_description: 'This is the home page'
       sign_up_now: 'Sign up now'
+      micropost_feed: 'Micropost Feed'
   header:
     index:
       users: 'Users'
@@ -50,6 +52,12 @@ en:
       page_description: 'This will be a signup page for new users.'
       create_account: 'Create a new account'
   users:
+    common:
+      following: 'following'
+      followers: 'followers'
+      follow: 'follow'
+      unfollow: 'unfollow'
+      view_my_profile: 'View my profile'
     index:
       title: 'All users'
     edit:
@@ -59,11 +67,13 @@ en:
     delete:
       title: 'Delete'
       deleted: 'User deleted'
+    show:
+      microposts: 'Microposts'
   user_mailer:
     account_activation:
       title: 'Account Activation'
       activate: 'Activate'
-      account_activated : 'Account activated'
+      account_activated: 'Account activated'
       invalid_activation_link: 'Invalid activation link'
       account_not_activated: 'Account not activated. '
       check_email: 'Check your email for the activation link.'
@@ -85,3 +95,18 @@ en:
       submit: 'Submit'
       email_not_found: 'Email not found'
       email_sent: 'Email sent with password reset instructions'
+  microposts:
+    common:
+      compose_new_micropost: 'Compose new micropost...'
+      post: 'Post'
+      posted: 'Posted'
+      ago: 'ago'
+    model:
+      should_less_than_5_megabytes: 'Should be less than 5 megabytes'
+      must_be_valid_image: 'Must be a valid image format'
+    new:
+      micropost_created: 'Micropost created!'
+    destroy:
+      micropost_deleted: 'Micropost deleted!'
+  shared:
+    view_my_profile: 'View my profile'
