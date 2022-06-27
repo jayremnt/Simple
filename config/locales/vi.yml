@@ -91,12 +91,12 @@ vi:
       email_sent: 'Email da duoc gui'
   microposts:
     common:
-      compose_new_micropost: 'Compose new micropost...'
+      compose_new_micropost: 'Tao bai viet moi...'
     model:
-      should_less_than_5_megabytes: 'Should be less than 5 megabytes'
-      must_be_valid_image: 'Must be a valid image format'
+      should_less_than_5_megabytes: 'Tep tai len can phai < 5mb'
+      must_be_valid_image: 'Anh khong hop le'
     new:
-      micropost_created: 'Micropost created!'
-      micropost_deleted: 'Micropost deleted!'
+      micropost_created: 'Da tao bai viet!'
+      micropost_deleted: 'Da xoa bai viet!'
   shared:
-    view_my_profile: 'View my profile'
+    view_my_profile: 'Xem trang ca nhan'

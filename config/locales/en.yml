@@ -90,5 +90,13 @@ en:
       email_not_found: 'Email not found'
       email_sent: 'Email sent with password reset instructions'
   microposts:
+    common:
+      compose_new_micropost: 'Compose new micropost...'
+    model:
+      should_less_than_5_megabytes: 'Should be less than 5 megabytes'
+      must_be_valid_image: 'Must be a valid image format'
     new:
       micropost_created: 'Micropost created!'
+      micropost_deleted: 'Micropost deleted!'
+  shared:
+    view_my_profile: 'View my profile'
