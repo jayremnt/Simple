@@ -92,6 +92,7 @@ vi:
   microposts:
     common:
       compose_new_micropost: 'Tao bai viet moi...'
+      post: 'Dang bai viet'
     model:
       should_less_than_5_megabytes: 'Tep tai len can phai < 5mb'
       must_be_valid_image: 'Anh khong hop le'

@@ -67,7 +67,7 @@ en:
     account_activation:
       title: 'Account Activation'
       activate: 'Activate'
-      account_activated : 'Account activated'
+      account_activated: 'Account activated'
       invalid_activation_link: 'Invalid activation link'
       account_not_activated: 'Account not activated. '
       check_email: 'Check your email for the activation link.'
@@ -92,6 +92,7 @@ en:
   microposts:
     common:
       compose_new_micropost: 'Compose new micropost...'
+      post: 'Post'
     model:
       should_less_than_5_megabytes: 'Should be less than 5 megabytes'
       must_be_valid_image: 'Must be a valid image format'
