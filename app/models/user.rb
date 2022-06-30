@@ -1,14 +1,16 @@
 class User < ApplicationRecord
   has_many :microposts, dependent: :destroy
-  has_many :active_relationships, class_name: "Relationship",
-                                  foreign_key: "follower_id",
+  has_many :active_relationships, class_name: Relationship.name,
+                                  foreign_key: :follower_id,
                                   dependent: :destroy
-  has_many :passive_relationships, class_name: "Relationship",
-                                   foreign_key: "followed_id",
+  has_many :passive_relationships, class_name: Relationship.name,
+                                   foreign_key: :followed_id,
                                    dependent: :destroy
   has_many :following, through: :active_relationships, source: :followed
   has_many :followers, through: :passive_relationships, source: :follower
+
   attr_accessor :remember_token, :activation_token, :reset_token
+
   before_save :downcase_email
   before_create :create_activation_digest
 
@@ -79,9 +81,18 @@ class User < ApplicationRecord
   end
 
   def feed
-    following_ids = "SELECT followed_id FROM relationships WHERE follower_id = :user_id"
-    Micropost.where("user_id IN (#{following_ids})
-    OR user_id = :user_id", user_id: id)
+    microposts = Micropost.arel_table
+    relationships = Relationship.arel_table
+
+    Micropost
+      .where(microposts[:user_id]
+        .in(relationships
+          .project(relationships[:followed_id])
+          .where(
+            relationships[:follower_id].eq(id)
+          ))
+        .or(microposts[:user_id].eq(id)))
+      .ordered_by_time_created
   end
 
   # Follows a user.

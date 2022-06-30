@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def show
-    @microposts = @user.microposts.paginate(page: params[:page], per_page: params[:per_page] || 10)
+    @microposts = @user.microposts.paginate(page: params[:page], per_page: params[:per_page] || Settings.items_per_page).ordered_by_time_created
   end
 
   def new
@@ -13,7 +13,7 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.paginate(page: params[:page], per_page: params[:per_page] || 10)
+    @users = User.paginate(page: params[:page], per_page: params[:per_page] || Settings.items_per_page)
   end
 
   def create
@@ -51,14 +51,14 @@ class UsersController < ApplicationController
   def following
     @title = t("users.common.following")
     @user = User.find(params[:id])
-    @users = @user.following.paginate(page: params[:page], per_page: params[:per_page] || 10)
+    @users = @user.following.paginate(page: params[:page], per_page: params[:per_page] || Settings.items_per_page)
     render :show_follow
   end
 
   def followers
     @title = t("users.common.followers")
     @user = User.find(params[:id])
-    @users = @user.followers.paginate(page: params[:page], per_page: params[:per_page] || 10)
+    @users = @user.followers.paginate(page: params[:page], per_page: params[:per_page] || Settings.items_per_page)
     render :show_follow
   end
 
