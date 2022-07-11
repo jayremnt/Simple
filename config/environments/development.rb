@@ -34,9 +34,9 @@ Rails.application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
 
-  host = "127.0.0.1:3000" # Don't use this literally; use your local dev host instead
+  host = "127.0.0.1" # Don't use this literally; use your local dev host instead
   # Use this on the cloud IDE.
-  config.action_mailer.default_url_options = { host: host, protocol: "http" }
+  config.action_mailer.default_url_options = { host: host, port: 3000 }
   # Use this if developing on localhost.
   # config.action_mailer.default_url_options = { host: host, protocol: 'http' }
 
