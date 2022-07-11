@@ -295,9 +295,13 @@ DEPENDENCIES
   bootstrap-will_paginate (= 1.0.0)
   byebug
   capybara (>= 2.15)
+<<<<<<< HEAD
   config
   factory_bot_rails
   ffaker
+=======
+  faker (= 2.1.2)
+>>>>>>> origin/dev
   image_processing (= 1.9.3)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)

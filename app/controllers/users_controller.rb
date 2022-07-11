@@ -48,6 +48,7 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
 
+<<<<<<< HEAD
   def following
     @title = t("users.common.following")
     @user = User.find(params[:id])
@@ -62,6 +63,8 @@ class UsersController < ApplicationController
     render :show_follow
   end
 
+=======
+>>>>>>> origin/dev
   private
 
   def getUser
